@@ -2,6 +2,9 @@ from sklearn import tree
 from sklearn import svm
 from sklearn import ensemble
 
+# Playing around with a small dataset (11) and using different models from Sklearn to 
+# see if they predict a different or the same gender (DecisionTree, SVM and RandomForest)
+
 # [height, weight, shoe size]
 
 X = [[181,80,44],[177,70,43],[160,60,38], [154,54,37],
